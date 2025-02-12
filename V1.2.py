@@ -39,9 +39,9 @@ def organize_files_by_user(src_folder, dest_folder):
             shutil.rmtree(subfolder_path)
 
 if __name__ == "__main__":
-    # 直接指定路径
-    src_folder = "F:/测试/整理后的文件"  # 替换为实际的源文件夹路径
-    dest_folder = "F:/测试/整理后的文件"  # 替换为实际的目标文件夹路径
+    # 指定源文件夹和目标文件夹路径
+    src_folder = r"~:\~~"  # 替换为你的源文件夹路径
+    dest_folder = r"~:\~~\整理后的文件"  # 替换为你的目标文件夹路径
 
     # 调用函数
     organize_files_by_user(src_folder, dest_folder)
