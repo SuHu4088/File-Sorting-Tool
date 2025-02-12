@@ -28,8 +28,8 @@ def organize_files_by_user(src_folder, dest_folder):
 
 if __name__ == "__main__":
     # 指定源文件夹和目标文件夹路径
-    src_folder = r"F:\推特下载"  # 替换为你的源文件夹路径
-    dest_folder = r"F:\测试\整理后的文件"  # 替换为你的目标文件夹路径
+    src_folder = r"~:\~~"  # 替换为你的源文件夹路径
+    dest_folder = r"~:\~~\整理后的文件"  # 替换为你的目标文件夹路径
 
     # 调用函数
     organize_files_by_user(src_folder, dest_folder)
